@@ -1,0 +1,17 @@
+@media only screen and (max-width: 32.5em) {
+    header, main, footer {
+        max-width: 32.5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: .75em;
+    }
+}

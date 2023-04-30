@@ -5,6 +5,6 @@ let month = date.getMonth() + 1;
 let year = date.getFullYear();
 let time = date.toLocaleTimeString();
 
-let todaysDate = `${month}/${day}/${year} ${time}`;
+let footer = `©${year} | Zach Southwick | Last Updated: ${month}/${day}/${year} ${time}`;
 
-document.getElementById("todays-date").textContent = todaysDate;
+document.getElementById("footer").textContent = footer;
