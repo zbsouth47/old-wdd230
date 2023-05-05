@@ -15,7 +15,7 @@
         font-size: 2.5em;
     }
 
-    .principals {
+    .principles {
         display: grid;
         grid-template-columns: 33% 33% 33%;
     }

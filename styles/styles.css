@@ -7,6 +7,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
 header {
     padding: 1.5rem;
 }
@@ -14,32 +15,41 @@ header {
 header, main, footer{
     margin: 1.25rem auto;
     align-items: center;
+    max-width: 32.5em;
 }
 
 header, footer {
-    background-color: #4D56D2;
-    color: white;
+    background-color: #3f47ac;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
-    
 }
 
 h1, h2, h3 {
     text-align: center;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
 h3 {
     color: white;
-    background-color: #4D56D2;
+    background-color: #3f47ac;
     border: black 1px solid;
     border-radius: 2.5%;
     margin: 5px;
+    font-size: .75em;
 }
 
 .rule-of-thirds, .parc-proximity, .parc-alignment {
-    background-color: lightgray;
+    background-color: #d3d3d3;
     border-radius: 2.5%;
-    border: black;
+    border: #000000;
     border-style: solid;
     margin: 1em;
 }
@@ -52,6 +62,11 @@ img {
 
 p {
     font-size: smaller;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 footer {
