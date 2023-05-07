@@ -24,7 +24,7 @@ nav {
 nav a {
     display: block;
     text-align: center;
-    margin: black 1px;
+    border: black;
     padding: 10px;
     color: var(--accent1);
     text-decoration: none;
