@@ -1,0 +1,42 @@
+@media only screen and (max-width: 70em) and (min-width: 32.5em) {
+    header, main, footer {
+        max-width: 70em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home {
+        flex: 25%;
+    }
+
+    .nav-div {
+        flex: 50%;
+    }
+    
+    .social-media {
+        flex: 25%;
+    }
+
+    nav {
+        max-width: 40em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        border: 1px solid black;
+        text-align: center;
+    }
+}

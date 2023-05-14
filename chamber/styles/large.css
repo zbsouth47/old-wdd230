@@ -1,0 +1,128 @@
+@media only screen and (min-width: 70em) {
+    header, main, footer {
+        max-width: 100em;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+    
+    h2 {
+        font-size: 4em;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home {
+        flex: 25%;
+    }
+
+    .nav-div {
+        flex: 50%;
+    }
+    
+    .social-media {
+        flex: 25%;
+    }
+
+    nav {
+        max-width: 40em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .event-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .hero-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .spotlights {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .spotlight-div, .spotlight2-div, .spotlight3-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .weather-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .join-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .news-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+
+    .footer-div {
+        display: flex;
+    }
+
+    .footer-logo {
+        flex: 50%;
+    }
+
+    .footer-contact {
+        flex: 50%;
+        text-align: end;
+    }
+
+    .footer-contact a {
+        text-decoration: none;
+    }
+
+    #footer {
+        border-top: 2px solid black;
+        align-items: center;
+    }
+}

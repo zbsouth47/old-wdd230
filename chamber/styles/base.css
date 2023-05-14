@@ -1,0 +1,96 @@
+:root {
+    /* fonts */
+    --headings: 'Roboto', sans-serif;
+    --regular-text: 'Roboto Slab', serif;
+
+    /* colors */
+    --primary-color: #537188;
+    --secondary: #011936;
+    --accent1: #F7F0F0;
+    --accent2: #C05746;
+}
+
+* {
+    font-family: var(--regular-text);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    border: black;
+    padding: 10px;
+    color: var(--accent1);
+    text-decoration: none;
+}
+
+header, main, footer{
+    padding: 1.5rem;
+    margin: 1.25rem auto;
+    align-items: center;
+    max-width: 32.5em;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--accent1);
+    font-weight: bold;
+}
+
+.home {
+    text-align: left;
+    font-size: 8px;
+}
+
+.home-icon {
+    width: 75px;
+}
+
+.social-media img {
+    max-width: 30px;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--headings);
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    color: var(--accent1);
+    background-color: var(--primary-color);
+    border: black 1px solid;
+    border-radius: 2.5%;
+    margin: 5px;
+    font-size: .75em;
+}
+
+img {
+    max-height: 600px;
+    border: 1px;
+    align-content: center;
+}
+
+p {
+    font-size: smaller;
+}
+
+footer {
+    color: white;
+}
