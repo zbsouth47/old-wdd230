@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
 :root {
     /* fonts */
     --headings: 'Roboto', sans-serif;
@@ -12,12 +14,6 @@
 
 * {
     font-family: var(--regular-text);
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
 }
 
 nav a {
@@ -53,6 +49,140 @@ header, footer {
 .social-media img {
     max-width: 30px;
 }
+
+/* header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home {
+    flex: 25%;
+}
+
+.nav-div {
+    flex: 50%;
+}
+
+.social-media {
+    flex: 25%;
+}
+
+nav {
+    max-width: 40em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.event-div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.hero-div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.spotlights {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.spotlight-div, .spotlight2-div, .spotlight3-div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.spotlight-div {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.spotlight2-div {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.spotlight3-div {
+    visibility: hidden;
+}
+
+.weather-div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.join-div {
+    visibility: hidden;
+}
+
+.news-div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.footer-div {
+    display: flex;
+}
+
+.footer-logo {
+    flex: 50%;
+}
+
+.footer-contact {
+    flex: 50%;
+    text-align: end;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#footer {
+    border-top: 2px solid black;
+    align-items: center;
+} */
 
 body {
     margin: 0 auto;

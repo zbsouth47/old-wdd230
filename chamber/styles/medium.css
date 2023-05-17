@@ -39,4 +39,118 @@
         border: 1px solid black;
         text-align: center;
     }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .event-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .hero-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .spotlights {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .spotlight-div, .spotlight2-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .spotlight-div {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .spotlight2-div {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .spotlight3-div {
+        visibility: hidden;
+    }
+
+    .weather-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .join-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .news-div {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .footer-div {
+        display: flex;
+    }
+
+    .footer-logo {
+        flex: 50%;
+    }
+
+    .footer-contact {
+        flex: 50%;
+        text-align: end;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+
+    #footer {
+        border-top: 2px solid black;
+        align-items: center;
+    }
 }
